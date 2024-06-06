@@ -9,8 +9,8 @@
       "Toputech ": "pm2 start . --deep-monitoring --attach --name Toputechai || node .",
       "start": "pm2 start . --attach --name Toputechai",
       "stop": "pm2 stop Toputechai",
-      "heroku-postbuild": "git clone https://github.com/Toputech/Topu-ai.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
-      "fis-heroku-postbuild": "git clone https://github.com/Toputech/Topu-ai.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
+      "heroku-postbuild": "git clone https://github.com/WillisKE/topu-ai.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
+      "fis-heroku-postbuild": "git clone https://github.com/WillisKE/topu-ai.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
       "postinstall": "npx puppeteer@latest install --y"
    },
    "author": "Toputech",
@@ -75,7 +75,7 @@
    },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/Toputech/Topu-ai.git"
+      "url": "git+https://github.com/WillisKE/topu-ai.git"
    },
    "bugs": {
       "url": "https://github.com/Toputech/Topu-ai/issues"
