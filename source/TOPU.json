@@ -1,7 +1,7 @@
 {
     "__JSON__": true,
     "AUTHOR": "Topu-md",
-    "theme": "Topu",
+    "theme": "Willis",
     "LANGUAGE": "English",
     "LANGCODE": "en",  
     "STRINGS": { 
@@ -31,8 +31,8 @@
             "antlink": "Link Detected.\n*I Have rremoved the violator*",
             "session": "\n kepp your session id safe sir",
             "mention": "Tag my owner",
-            "title": "TOPU",
-            "footer": "TOPU",
+            "title": "Willis",
+            "footer": "〃〃〃",
             "by": "Made by: topu",
             "chat_desc": "Options Avilable* : 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete",
             "success": "Done ✓",
