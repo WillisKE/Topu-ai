@@ -11,6 +11,6 @@ WORKDIR /root/Toputechai
 RUN npm install
 
 # Add additional Steps To Run...
-EXPOSE 3000
+EXPOSE 8000
 CMD ["npm","start" ]
 # IF YOU ARE MODIFYING THIS BOT DONT CHANGE THIS  RUN rm -rf /root/Toputechai/node_modules
