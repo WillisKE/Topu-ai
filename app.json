@@ -9,7 +9,7 @@
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",
-      "value": "topu tech",
+      "value": "≛ Willis",
       "required": true
     },
 
@@ -27,12 +27,12 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required": false,
-      "value": "TOPU Md"
+      "value": "ᨰׁׅꪱׁׅꪀׁׅ꯱ׁׅ֒℘ꫀׁׅܻꭈׁׅtׁׅꫀׁׅܻᝯׁhׁׅ֮"
     },
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
       "required": false,
-      "value": "Africa/Dar es salaam"
+      "value": "Africa/Nairobi"
     },
     "READ_COMMAND": {
       "description": " Read bot cmds",
@@ -51,7 +51,7 @@
     },
     "HEROKU_API_KEY": {
       "description": "Put Your Heroku Api Key Here",
-      "value": "",
+      "value": "HRKU-26ad0fbf-58ab-4aee-b161-3144d6b29cf5",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -94,7 +94,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "255673750170"
+      "value": "254786273945,254702365210,254708336448,254762508828"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
@@ -107,11 +107,26 @@
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
       "value": "Topu",
+      "required": false      
+    },
+    "GURL": {
+      "description": "",
+      "value": "https://whatsapp.com/channel/0029VaZ8Q0Y1XquZ673Uvs0m",
+      "required": false      
+    },
+    "USER_IMAGE": {
+      "description": "Put",
+      "value": "text",
+      "required": false
+    },
+    "MENU": {
+      "description": "Put Sticker Pack_Name.",
+      "value": "3",
       "required": false
     },
     "PACK_AUTHER": {
       "description": "Put Sticker Author_Name.",
-      "value": "Topu dmh",
+      "value": "〃Willis",
       "required": false
     }
   },
