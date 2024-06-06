@@ -2,7 +2,7 @@
   "name": "ᨰׁׅꪱׁׅꪀׁׅ꯱ׁׅ֒℘ꫀׁׅܻꭈׁׅtׁׅꫀׁׅܻᝯׁhׁׅ֮",
   "description": "Simple WhatsApp Bot",
   "logo": "https://telegra.ph/file/d7b133573a5a3622775e6.jpg",
-  "keywords": ["Topu-md", "TOPU", "TOPU MD","TOPU MD wabot","Topu","Toputech"],
+  "keywords": ["Suhail", "Suhail-md", "Suhail","Willis","WinsperTech","WillisKE"],
   "success_url": "/",
   "stack": "container",
 
@@ -37,7 +37,7 @@
     "READ_COMMAND": {
       "description": " Read bot cmds",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "WARN_COUNT": {
       "description": " Warn count for users to kick/block when warn limit exceed!",
@@ -76,16 +76,16 @@
     },
      "OPEN_API_KEY": {
       "description": "put your OPEN_API_KEY here to access chatgpt.",
-      "value": "sk-proj-1OXigIjDK8D0kcA79HdeT3BlbkFJEDHPpT2duPSj9OSpIEd0"
+      "value": ""
     }, 
     "READ_MESSAGE": {
       "description": "Fill the value true if you want bot to read all messages.",
       "required": false,
       "value": "false"
     },
-    "DISABLE_PM": {
+    "IMAGE": {
       "description": "Make it 'false' if you wanna run bot in your pm (if MODE is Public)",
-      "value": "false",
+      "value": "https://telegra.ph/file/d7b133573a5a3622775e6.jpg",
       "required": "false"
     },
     "PREFIX": {
@@ -104,9 +104,9 @@
       "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
       "value": "public"
     },
-    "PACK_NAME": {
+    "GITHUB": {
       "description": "Put Sticker Pack_Name.",
-      "value": "Topu",
+      "value": "https://github.com/WillisKE/topu-ai",
       "required": false      
     },
     "GURL": {
