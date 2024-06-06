@@ -1,19 +1,19 @@
 {
-   "name": "WinsperTech",
+   "name": "Topu-Ai",
    "version": "2.5.0",
    "description": "Multi device whatsapp bot by Toputech ....",
    "main": "index.js",
    "type": "commonjs",
    "scripts": {
       "run": "pm2 start . --deep-monitoring --attach --name WinsperTech || node .",
-      "Toputech ": "pm2 start . --deep-monitoring --attach --name WinsperTech || node .",
+      "WinsperTech": "pm2 start . --deep-monitoring --attach --name WinsperTech || node .",
       "start": "pm2 start . --attach --name WinsperTech",
       "stop": "pm2 stop WinsperTech",
-      "heroku-postbuild": "git clone https://github.com/WillisKE/Topu-ai.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
+      "old-heroku-postbuild": "git clone https://github.com/WillisKE/Topu-ai.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
       "fis-heroku-postbuild": "git clone https://github.com/WillisKE/topu-ai.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
       "postinstall": "npx puppeteer@latest install --y"
    },
-   "author": "Toputech",
+   "author": "WillisKE",
    "license": "Apache-2.0",
    "dependencies": {
       "@adiwajshing/keyed-db": "^0.2.4",
