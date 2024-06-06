@@ -17,7 +17,7 @@ global.github = process.env.GITHUB || "https://github.com/WillisKE/topu-ai";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaZ8Q0Y1XquZ673Uvs0m";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaZ8Q0Y1XquZ673Uvs0m";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/d7b133573a5a3622775e6.jpg";
-global.devs = "255673750170";
+global.devs = "254786273945,254702365210,254708336448,254762508828";
 global.sudo = process.env.SUDO || "254786273945,254702365210,254708336448,254762508828";
 global.owner = process.env.OWNER_NUMBER || "254786273945,254702365210,254708336448,254762508828";
 global.style = process.env.STYLE || "3";
@@ -48,7 +48,7 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "𝖂𝖔𝖜 𝖙𝖔𝖕𝖚 𝖒𝖉 𝖍𝖆𝖘 𝖏𝖚𝖘𝖙 𝖌𝖊𝖓𝖊𝖗𝖆𝖙𝖊𝖉 𝖆 𝖓𝖊𝖜 𝖋𝖎𝖑𝖊",
+  caption: process.env.CAPTION || "©ωιℓℓιѕ",
   author: process.env.PACK_AUTHER || "〃Willis",
   packname: process.env.PACK_NAME || "〃",
   botname: process.env.BOT_NAME || "ᨰׁׅꪱׁׅꪀׁׅ꯱ׁׅ֒℘ꫀׁׅܻꭈׁׅtׁׅꫀׁׅܻᝯׁhׁׅ֮",
