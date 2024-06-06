@@ -1,6 +1,6 @@
 FROM quay.io/sampandey001/secktor
 
-RUN git clone https://github.com/Toputech/Topu-ai.git /root/Toputechai
+RUN git clone https://github.com/WillisKE/Topu-ai.git /root/Toputechai
 
 # Clear npm cache and remove node_modules directories
 RUN npm cache clean --force
