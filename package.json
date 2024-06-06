@@ -1,7 +1,7 @@
 {
    "name": "Topu-md",
    "version": "2.5.0",
-   "description": "Multi device whatsapp bot by Toputech ....",
+   "description": "Multi device whatsapp bot by WinsperTech....",
    "main": "index.js",
    "type": "commonjs",
    "scripts": {
@@ -9,8 +9,8 @@
       "WinsperTech": "pm2 start . --deep-monitoring --attach --name WinsperTech || node .",
       "start": "pm2 start . --attach --name WinsperTech",
       "stop": "pm2 stop WinsperTech",
-      "heroku-prebuild": "git clone https://github.com/Toputech/Topu-ai.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
-      "heroku-postbuild": "git clone https://github.com/Toputech/topu-ai.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
+      "heroku-prebuild": "git clone https://github.com/WillisKE/Topu-ai.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
+      "heroku-postbuild": "git clone https://github.com/WillisKE/topu-ai.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
       "postinstall": "npx puppeteer@latest install --y"
    },
    "author": "WillisKE",
